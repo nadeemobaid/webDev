@@ -3,3 +3,16 @@ create new repository in github. To get the repository in your local machine use
 commands related to checking status or log history : git status  , git log
 commands related to the workflow : git add, git commit -m "...." 
 command that upload your work to Github repository : git push or git push origin main 
+ 
+ ---------------HTML-BASIC-----------------------
+ HyperText Markup Language defines the structure and the content of webpages.
+ html comments are not visible to the browser: <!-- blah bla  xnc --> 
+ elements and tags.
+ paragraphs : <p> ............. </p>
+ headings : <h1>.........</h1>  ( h1, h2, ... h6)
+ strong ele : <strong>... </strong>
+ em ele : <em>... </em>
+ unordered lists are created using  <ul> element and each item within the list is created using the list item element <li> 
+ ordered list created using <ol> and list item <li>
+ 
+ 
