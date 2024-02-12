@@ -41,7 +41,7 @@ external css - creating a separate file for css and linking it inside of an html
 internal css - or emnedded css involves adding the css within the html file itself. placing all the rules inside of a pair of oening and closing <style> tags, which are then placed inside of the opening and closing <head>tag of html file.
 inline css - inline css makes it possible to add styles directly to html elements, though this method isn't recommended. style attribute used 
 
-A Css declaration that is mor especific will take precedence over less specific ones. Inline style have the highest specificity compare to selectors.Id selector (most specific selector) > Class selector > Type selector--Specificity will only be taken inti account when an element has multiple, confilicting declarations targeting it, sort of like a tie-breaker. Special symbols ( * + ~ > and an empty space ) do not have specificity in and of themselves.
-INHERITANCE-- Typography-based properties ( color, font-size, font-family, etc.) are usually inherited.
+A Css declaration that is mor especific will take precedence over less specific ones. Inline style have the highest specificity compare to selectors.Id selector (most specific selector) > Class selector > Type selector--Specificity will only be taken inti account when an element has multiple, confilicting declarations targeting it, sort of like a tie-breaker. Special symbols ( * + ~ > and an empty space ) universal selector - combinators, do not have specificity in and of themselves.
+INHERITANCE-- Typography-based properties ( color, font-size, font-family, etc.) are usually inherited. The exception to this is when directly targetng an element, as this always beats inheritance. 
 Rule order - whichever rule was the last defined is the winner.
 
